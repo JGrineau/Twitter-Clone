@@ -45,11 +45,13 @@ const home = () => {
               Post
             </button>
           </div>
-          <button className="w-full rounded-full flex items-center space-x-2 bg-transparent p-4 m-4 text-center hover:bg-white/10 transition duration-200">
-            <div className="rounded-full bg-slate-400 w-8 h-8 "></div>
-            <div className="text-left text-xs">
-              <div className="font-semibold">Club of JP Grineau</div>
-              <div className="">@JP_Grineau</div>
+          <button className="w-full justify-between rounded-full flex items-center space-x-2 bg-transparent p-4 m-4 text-center hover:bg-white/10 transition duration-200">
+            <div className="flex items-center space-x-2 ">
+              <div className="rounded-full bg-slate-400 w-8 h-8 "></div>
+              <div className="text-left text-s">
+                <div className="font-semibold">Club of JP Grineau</div>
+                <div className="">@JP_Grineau</div>
+              </div>
             </div>
             <div>
               <BsThreeDots />
