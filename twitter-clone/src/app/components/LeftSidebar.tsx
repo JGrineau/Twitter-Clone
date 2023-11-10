@@ -22,7 +22,7 @@ const NAVIGATION_ITEMS = [
 
 const LeftSidebar = () => {
   return (
-    <section className="fixed w-72 flex flex-col h-screen space-y-4 items-stretch">
+    <section className="fixed w-72 flex flex-col h-screen space-y-4 items-stretch px-4">
       <div className="flex flex-col h-screen space-y-4 items-stretch">
         {NAVIGATION_ITEMS.map((item) => (
           <Link
@@ -36,7 +36,7 @@ const LeftSidebar = () => {
             {item.title !== "X" && <div>{item.title}</div>}
           </Link>
         ))}
-        <button className="w-full rounded-full bg-primary p-4 m-4 text-center hover:bg-opacity-70 transition duration-200">
+        <button className="w-full mr-2 rounded-full bg-primary p-4 m-4 text-center hover:bg-opacity-70 transition duration-200">
           Post
         </button>
       </div>
