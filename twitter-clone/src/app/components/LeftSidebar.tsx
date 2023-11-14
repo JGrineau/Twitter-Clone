@@ -22,8 +22,8 @@ const NAVIGATION_ITEMS = [
 
 const LeftSidebar = () => {
   return (
-    <section className="fixed w-72 flex flex-col h-screen space-y-4 items-stretch ">
-      <div className="flex flex-col h-screen space-y-4 items-stretch mr-16">
+    <section className="fixed w-72 flex flex-col h-screen space-y-4 items-stretch px-6">
+      <div className="flex flex-col h-screen space-y-4 items-stretch mr-18">
         {NAVIGATION_ITEMS.map((item) => (
           <Link
             className="hover:bg-white/10 transition duration-200 flex items-center text-2xl justify-start w-fit space-x-2 rounded-3xl py-2 px-6"
@@ -36,16 +36,17 @@ const LeftSidebar = () => {
             {item.title !== "X" && <div>{item.title}</div>}
           </Link>
         ))}
-        <button className="w-full mr-4 rounded-full bg-primary p-4 m-4 text-center hover:bg-opacity-70 transition duration-200">
+        <button className="w-full rounded-full bg-primary  text-center hover:bg-opacity-70 transition duration-200">
           Post
         </button>
       </div>
-      <button className="w-full justify-between rounded-full flex items-center space-x-2 bg-transparent p-4 text-center hover:bg-white/10 transition duration-200 mr-16">
-        <div className="flex items-center space-x-2 ">
+
+      <button className=" w-full rounded-full justify-between flex items-center space-x-2 bg-transparent p-4 mr-4 text-center hover:bg-white/10 transition duration-200 ">
+        <div className="flex items-center space-x-2">
           <div className="rounded-full bg-slate-400 w-8 h-8 "></div>
-          <div className="text-left text-s">
-            <div className="font-semibold">Club of JP Grineau</div>
-            <div className="">@JP_Grineau</div>
+          <div className="text-left">
+            <div className="font-semibold text-xs">Club of JP Grineau</div>
+            <div className="text-xs">@JP_Grineau</div>
           </div>
         </div>
         <div>
