@@ -22,7 +22,7 @@ const NAVIGATION_ITEMS = [
 
 const LeftSidebar = () => {
   return (
-    <section className="fixed w-72 flex flex-col h-screen space-y-4 items-stretch px-6">
+    <section className="fixed w-72 flex flex-col h-screen space-y-4 items-stretch">
       <div className="flex flex-col h-screen space-y-4 items-stretch mr-18">
         {NAVIGATION_ITEMS.map((item) => (
           <Link
@@ -45,7 +45,7 @@ const LeftSidebar = () => {
         <div className="flex items-center space-x-2">
           <div className="rounded-full bg-slate-400 w-8 h-8 "></div>
           <div className="text-left">
-            <div className="font-semibold text-xs">Club of JP Grineau</div>
+            <div className="font-semibold text-xs">JP Grineau</div>
             <div className="text-xs">@JP_Grineau</div>
           </div>
         </div>
