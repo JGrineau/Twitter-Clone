@@ -8,8 +8,11 @@ const home = () => {
       <div className="max-w-screen-lg w-full h-full flex relative">
         {/* Left Side bar  */}
         <LeftSidebar />
-        <MainComponent />
-        {/* <main className="ml-[275px] p-5 mx-6 flex w-[600px] min-h-screen g-full flex-col border-l-[0.5px] border-r-[0.5px] border-gray-500"></main> */}
+        {/* <MainComponent /> */}
+        <main className="ml-[275px] p-5 mx-6 flex w-[600px] min-h-screen g-full flex-col border-l-[0.5px] border-r-[0.5px] border-gray-500">
+          <h1 className="text-2xl font-bold">Home</h1>
+          <div className="border-t-[0.5px] border-r-[0.5px] border-gray-600"></div>
+        </main>
         {/*<section>right sidebar</section> */}
       </div>
     </div>
